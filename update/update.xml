@@ -1,0 +1,47 @@
+﻿<update>
+	<urls>
+		<oray>http://xplorer.imwork.net:81/Update/update.xml</oray>
+		<f3322>http://xplorer.f3322.net:81/Update/update.xml</f3322>
+		<ddns>http://xplor.ddns.net:81/Update/update.xml</ddns>
+		<googlecode>http://explorerplus.googlecode.com/svn/update/update.xml</googlecode>
+		<skydrive>https://14htia.bay.livefilestore.com/y1mJcOHYxwEJ8PTvVaj79-Y9XW1FhfiLfKTylClf-qsnMWZsEF9uzzmaf0ft6njk3UbXIeyDzaPMmuL1iWtXXB3f2XJ_6su3rPm3GJik9ZOOi8/update.xml</skydrive>
+		<dropbox>https://dl.dropbox.com/sh/wg1dh78mjvjh95b/4PloQWELb6/update.xml</dropbox>
+	</urls>
+	<explorer version="2.3.2">
+		<details>
+			1. Add new future, fastest search for all disk files.
+			2. Add auto update.
+			3. Add feedback.
+			4. Fix bugs.
+		</details>
+		
+		<oray url="http://xplorer.imwork.net:81/Update/">
+			<file path="Explorer" setup="true">Explorer/ExplorerPlusSetup_2.3.2.exe</file>
+		</oray>
+		<f3322 url="http://xplorer.f3322.net:81/Update/">
+			<file path="Explorer" setup="true">Explorer/ExplorerPlusSetup_2.3.2.exe</file>
+		</f3322>
+		<ddns url="http://xplor.ddns.net:81/Update/">
+			<file path="Explorer" setup="true">Explorer/ExplorerPlusSetup_2.3.2.exe</file>
+		</ddns>
+
+		<!--以下为之前的方式,现已行不通.-->
+		<delete>
+			<file>Modules/MPlayer.dll</file>
+		</delete>
+		<googlecode url="http://explorerplus.googlecode.com/svn/update/Explorer/V2.0.2/">
+			<file path="Modules" name="MDirectUI.dll">Modules/MDirectUI.dll</file>
+			<file path="Modules" name="MExplorer.dll">Modules/MExplorer.dll</file>
+			<file upzip="true">Modules.zip</file>
+		</googlecode>
+		<dropbox url="https://dl.dropbox.com/sh/wg1dh78mjvjh95b/">
+			<file path="Modules" name="MDirectUI.dll">S_pnOq9hGH/Explorer/V2.0.2/Modules/MDirectUI.dll</file>
+			<file path="Modules" name="MExplorer.dll">jvB-0UtDGi/Explorer/V2.0.2/Modules/MExplorer.dll</file>
+		</dropbox>
+		<skydrive url="https://14j1qw.bay.livefilestore.com/">
+			<file path="Modules" name="MDirectUI.dll">y1mIkBXDsCJQgRNSV1UOgv1s3edZkyy-Qev81H28yr1OHOkhXItAsM3RBbkgIX9UbPMv8qNKKI_5q4OFNGbD_aQelRoKR8laOkiJeOXo60aZKk/MDirectUI.dll</file>
+			<file path="Modules" name="MExplorer.dll">y1mE9kHdIQVkV41XYLGmbdK82VGLHrWoynMYBp9UQjbS5848jRwXGxfBJqJwKaNNvBAJF7dYSv3bzAzi_ar-DAsFakTFoebfsxYBL7BP9M99kQ/MExplorer.dll</file>
+			<file upzip="true"></file>
+		</skydrive>
+	</explorer>
+</update>
